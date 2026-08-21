@@ -201,6 +201,13 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# TransData generated data and local application artifacts
+# Data is rebuilt by the pipeline and is intentionally not versioned in Git.
+/data/
+/web/node_modules/
+/web/.next/
+/web/.env.local
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
