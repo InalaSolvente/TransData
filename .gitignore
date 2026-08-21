@@ -207,6 +207,7 @@ cython_debug/
 /web/node_modules/
 /web/.next/
 /web/.env.local
+/web/*.tsbuildinfo
 
 # Marimo
 marimo/_static/
