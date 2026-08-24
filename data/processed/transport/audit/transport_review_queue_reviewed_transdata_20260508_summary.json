@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-05-09T01:56:47",
+  "input_rows": 362,
+  "decision_counts": {
+    "INCLUIR": 305,
+    "INCLUIR_PARCIAL": 48,
+    "EXCLUIR": 7,
+    "REVISAR_MANUAL": 2
+  },
+  "priority_counts": {
+    "MEDIA": 89,
+    "ALTA": 117,
+    "NO_APLICA": 7,
+    "BAJA": 149
+  },
+  "segment_counts": {
+    "educacion": 206,
+    "salud": 61,
+    "social": 81,
+    "otros": 14
+  },
+  "recommendation": {
+    "master_core_include": 353,
+    "exclude": 7,
+    "manual_review": 2,
+    "partial_include": 48
+  },
+  "excluded_codes": [
+    {
+      "codigo_licitacion": "1049-58-CO25",
+      "nombre_licitacion": "AUTORIZA EL LLAMADO Y LAS BASES DE LICITACIÓN PRIVADA PARA “SERVICIO DE TRASLADO DE PASAJEROS EN LANCHA MENOR PARA EL MUESTREO BIO-OCEANOGRÁFICO MENSUAL EN LA LOCALIDAD DE COLIUMO",
+      "motivo": "Servicio en lancha menor / transporte marítimo; queda fuera del foco terrestre de pasajeros."
+    },
+    {
+      "codigo_licitacion": "1049-59-CO25",
+      "nombre_licitacion": "AUTORIZA EL LLAMADO Y LAS BASES DE LICITACIÓN PRIVADA PARA SERVICIO DE TRASLADO DE PASAJEROS EN LANCHA MENOR PARA EL MUESTREO BIO-OCEANOGRÁFICO MENSUAL EN LA ESTACION FIJA DE ARICA Y MEJILLONES",
+      "motivo": "Servicio en lancha menor / transporte marítimo; queda fuera del foco terrestre de pasajeros."
+    },
+    {
+      "codigo_licitacion": "1049-40-LE25",
+      "nombre_licitacion": "SERVICIO DE TRASLADO DE PASAJEROS EN LANCHA MENOR PARA EL MUESTREO BIOOCEANOGRÁFICO MENSUAL EN LA LOCALIDAD DE COLIUMO”",
+      "motivo": "Servicio en lancha menor / transporte marítimo; queda fuera del foco terrestre de pasajeros."
+    },
+    {
+      "codigo_licitacion": "1049-41-LE25",
+      "nombre_licitacion": "SERVICIO DE TRASLADO DE PASAJEROS EN LANCHA MENOR PARA EL MUESTREO BIOOCEANOGRÁFICO MENSUAL EN LA ESTACION FIJA DE ARICA Y MEJILLONES",
+      "motivo": "Servicio en lancha menor / transporte marítimo; queda fuera del foco terrestre de pasajeros."
+    },
+    {
+      "codigo_licitacion": "5061-162-L122",
+      "nombre_licitacion": "S376 Servicio de traslado de pasajeros para entrega de medicamentos a domicilio para Farmacia Municipal,",
+      "motivo": "El objetivo principal parece ser entrega/logística de medicamentos, no traslado de pasajeros como demanda principal."
+    },
+    {
+      "codigo_licitacion": "2790-144-LQ22",
+      "nombre_licitacion": "ADQUISICIÓN DE AMBULANCIA DE EMERGENCIA AEB Y VEHÍCULO TRANSPORTE DE PASAJEROS",
+      "motivo": "Es compra/adquisición de vehículo/ambulancia, no contratación de servicio de transporte de pasajeros."
+    },
+    {
+      "codigo_licitacion": "5061-92-L122",
+      "nombre_licitacion": "Servicio de traslado de pasajeros para entrega de medicamentos a domicilio para Farmacia Municipal, según especificaciones técnicas adjuntas.",
+      "motivo": "El objetivo principal parece ser entrega/logística de medicamentos, no traslado de pasajeros como demanda principal."
+    }
+  ],
+  "manual_review_codes": [
+    {
+      "codigo_licitacion": "1195104-26-LR24",
+      "nombre_licitacion": "Servicio de traslado de pasajeros SERMIG",
+      "motivo": "Traslado de pasajeros SERMIG con componente terrestre/marítimo/aéreo; no queda claro cuánto corresponde a transporte terrestre contratado versus pasajes o servicios multimodales."
+    },
+    {
+      "codigo_licitacion": "1195104-3-LR24",
+      "nombre_licitacion": "Servicio de traslado de pasajeros SERMIG",
+      "motivo": "Traslado de pasajeros SERMIG con componente terrestre/marítimo/aéreo; no queda claro cuánto corresponde a transporte terrestre contratado versus pasajes o servicios multimodales."
+    }
+  ]
+}

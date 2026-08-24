@@ -1,0 +1,92 @@
+﻿comprador_region_final,publicacion_periodo,estado_grupo,licitaciones,monto_estimado_total,monto_adjudicado_total
+Región Aysén del General Carlos Ibáñez del Campo,2026-02,desierta,1,65000000.0,0.0
+Región Metropolitana de Santiago,2026-02,adjudicada,1,162000000.0,1600000.0
+Región de Atacama,2026-02,adjudicada,1,0.0,3000.0
+Región de Coquimbo,2026-02,adjudicada,1,0.0,0.0
+Región del Biobío,2026-02,adjudicada,1,0.0,3337000.0
+Región Metropolitana de Santiago,2026-03,adjudicada,3,0.0,20700000.0
+Región Metropolitana de Santiago,2026-03,cerrada,1,20500000.0,0.0
+Región Metropolitana de Santiago,2026-03,desierta,1,0.0,0.0
+Región de Atacama,2026-03,adjudicada,1,0.0,7800000.0
+Región de Valparaíso,2026-03,adjudicada,2,0.0,103670800.0
+Región de los Lagos,2026-03,cerrada,1,3729182372.0,0.0
+Región del Biobío,2026-03,adjudicada,2,68640000.0,7090000.0
+Región del Biobío,2026-03,desierta,1,33480000.0,0.0
+Región del Libertador General Bernardo O´Higgins,2026-03,adjudicada,2,0.0,237815569.0
+Región del Libertador General Bernardo O´Higgins,2026-03,cerrada,1,45000000.0,0.0
+Región del Maule,2026-03,adjudicada,1,0.0,14500003.0
+Región del Maule,2026-03,desierta,1,0.0,0.0
+Región Metropolitana de Santiago,2026-04,publicada,1,318000000.0,0.0
+Región de Arica y Parinacota,2026-04,cerrada,1,57600000.0,0.0
+Región de los Lagos,2026-04,cerrada,1,0.0,0.0
+Región del Biobío,2026-04,adjudicada,1,0.0,20000000.0
+Región del Biobío,2026-04,cerrada,1,39330000.0,0.0
+Región del Ñuble,2026-04,desierta,1,0.0,0.0
+Región Aysén del General Carlos Ibáñez del Campo,NaT,adjudicada,87,1546736000.0,721457600.0069
+Región Aysén del General Carlos Ibáñez del Campo,NaT,desierta,51,311845625.0,0.0
+Región Aysén del General Carlos Ibáñez del Campo,NaT,otro,3,129500000.0,0.0
+Región Metropolitana de Santiago,NaT,adjudicada,763,57923981607.0,19114808203.2147
+Región Metropolitana de Santiago,NaT,cerrada,27,1163991480.0,3114000.0
+Región Metropolitana de Santiago,NaT,desierta,354,17103340795.0,0.0
+Región Metropolitana de Santiago,NaT,otro,65,37614275567.0,0.0
+Región Metropolitana de Santiago,NaT,publicada,2,60000000.0,0.0
+Región de Antofagasta,NaT,adjudicada,46,5123558884.139999,1367610161.1139998
+Región de Antofagasta,NaT,cerrada,1,0.0,0.0
+Región de Antofagasta,NaT,desierta,35,317452283.0,0.0
+Región de Antofagasta,NaT,otro,6,344236750.0,0.0
+Región de Arica y Parinacota,NaT,adjudicada,98,4653075465.0,1914848224.0
+Región de Arica y Parinacota,NaT,cerrada,3,5998800.0,0.0
+Región de Arica y Parinacota,NaT,desierta,36,2120441384.0,0.0
+Región de Arica y Parinacota,NaT,otro,4,471879039.0,0.0
+Región de Atacama,NaT,adjudicada,127,2684425519.0,747693364.421
+Región de Atacama,NaT,cerrada,2,5000000.0,0.0
+Región de Atacama,NaT,desierta,42,179200010.0,0.0
+Región de Atacama,NaT,otro,9,345000000.0,0.0
+Región de Coquimbo,NaT,adjudicada,160,5900548552.0,1426831443.077
+Región de Coquimbo,NaT,cerrada,3,28620548.0,0.0
+Región de Coquimbo,NaT,desierta,50,511397346.0,0.0
+Región de Coquimbo,NaT,otro,4,263300000.0,0.0
+Región de Coquimbo,NaT,publicada,1,3380000.0,0.0
+Región de Los Ríos,NaT,adjudicada,243,7164041494.0,1595139064.0
+Región de Los Ríos,NaT,cerrada,7,6955200.0,0.0
+Región de Los Ríos,NaT,desierta,85,705261746.0,0.0
+Región de Los Ríos,NaT,otro,7,0.0,0.0
+Región de Magallanes y de la Antártica,NaT,adjudicada,77,1254334151.0,688929016.89
+Región de Magallanes y de la Antártica,NaT,cerrada,1,32000000.0,0.0
+Región de Magallanes y de la Antártica,NaT,desierta,29,325445234.0,0.0
+Región de Magallanes y de la Antártica,NaT,otro,5,236750000.0,0.0
+Región de Tarapacá,NaT,adjudicada,37,956010888.0,380676816.79
+Región de Tarapacá,NaT,cerrada,2,42000000.0,0.0
+Región de Tarapacá,NaT,desierta,20,110220871.2,0.0
+Región de Tarapacá,NaT,otro,5,278222201.0,0.0
+Región de Valparaíso,NaT,adjudicada,363,13980382252.0,6478678619.785464
+Región de Valparaíso,NaT,cerrada,10,435028000.0,0.0
+Región de Valparaíso,NaT,desierta,231,5407595760.52,0.0
+Región de Valparaíso,NaT,otro,28,910888978.0,0.0
+Región de Valparaíso,NaT,publicada,10,984006236.0,0.0
+Región de la Araucanía,NaT,adjudicada,607,47400840990.44,6062925003.089
+Región de la Araucanía,NaT,cerrada,18,1159368720.0,600.0
+Región de la Araucanía,NaT,desierta,211,6656810388.68067,0.0
+Región de la Araucanía,NaT,otro,30,3659634384.0,0.0
+Región de la Araucanía,NaT,publicada,1,0.0,0.0
+Región de los Lagos,NaT,adjudicada,466,8014698406.0,3717447374.768
+Región de los Lagos,NaT,cerrada,18,33945000.0,0.0
+Región de los Lagos,NaT,desierta,127,538509980.0,0.0
+Región de los Lagos,NaT,otro,22,255147290.0,0.0
+Región del Biobío,NaT,adjudicada,574,22948051337.0,5803621579.6207
+Región del Biobío,NaT,cerrada,11,320120000.0,0.0
+Región del Biobío,NaT,desierta,204,3354503471.0,0.0
+Región del Biobío,NaT,otro,28,2213821100.0,0.0
+Región del Libertador General Bernardo O´Higgins,NaT,adjudicada,657,21575266872.0,9737842750.5
+Región del Libertador General Bernardo O´Higgins,NaT,cerrada,13,616049388.0,0.0
+Región del Libertador General Bernardo O´Higgins,NaT,desierta,305,3116645186.0,0.0
+Región del Libertador General Bernardo O´Higgins,NaT,otro,47,685620501.0,0.0
+Región del Maule,NaT,adjudicada,540,6209528663.0,7055293806.23
+Región del Maule,NaT,cerrada,17,841679495.0,7655000.0
+Región del Maule,NaT,desierta,151,1018403339.0,0.0
+Región del Maule,NaT,otro,26,598264400.0,0.0
+Región del Maule,NaT,publicada,1,100000000.0,0.0
+Región del Ñuble,NaT,adjudicada,303,7166010307.0,3724752654.87
+Región del Ñuble,NaT,cerrada,8,508462064.0,164034.0
+Región del Ñuble,NaT,desierta,100,1280666604.0,0.0
+Región del Ñuble,NaT,otro,18,623125000.0,0.0

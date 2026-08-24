@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "type": "append_master_summary",
+    "generated_at": "2026-04-29T08:10:38.614182",
+    "master_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\licitaciones_master.csv"
+  },
+  "results": {
+    "processed_files": 14,
+    "nuevas": 123347,
+    "actualizadas": 2282,
+    "sin_cambios": 0,
+    "total_final": 123347
+  },
+  "files": [
+    {
+      "processed_file": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\licitaciones_processed_1_4_20260427_152607.csv",
+      "nuevas": 2252,
+      "actualizadas": 0,
+      "sin_cambios": 0,
+      "total_final": 2252
+    },
+    {
+      "processed_file": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\licitaciones_processed_1_30_20260428_012756.csv",
+      "nuevas": 15230,
+      "actualizadas": 2251,
+      "sin_cambios": 0,
+      "total_final": 17482
+    },
+    {
+      "processed_file": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\licitaciones_processed_31_60_20260428_013027.csv",
+      "nuevas": 10333,
+      "actualizadas": 2,
+      "sin_cambios": 0,
+      "total_final": 27815
+    },
+    {
+      "processed_file": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\licitaciones_processed_61_90_20260428_013320.csv",
+      "nuevas": 9189,
+      "actualizadas": 1,
+      "sin_cambios": 0,
+      "total_final": 37004
+    },
+    {
+      "processed_file": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\licitaciones_processed_91_120_20260428_013547.csv",
+      "nuevas": 8024,
+      "actualizadas": 3,
+      "sin_cambios": 0,
+      "total_final": 45028
+    },
+    {
+      "processed_file": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\licitaciones_processed_121_150_20260428_013814.csv",
+      "nuevas": 9291,
+      "actualizadas": 2,
+      "sin_cambios": 0,
+      "total_final": 54319
+    },
+    {
+      "processed_file": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\licitaciones_processed_151_180_20260428_014043.csv",
+      "nuevas": 10287,
+      "actualizadas": 3,
+      "sin_cambios": 0,
+      "total_final": 64606
+    },
+    {
+      "processed_file": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\licitaciones_processed_181_210_20260428_045419.csv",
+      "nuevas": 10108,
+      "actualizadas": 4,
+      "sin_cambios": 0,
+      "total_final": 74714
+    },
+    {
+      "processed_file": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\licitaciones_processed_211_240_20260428_045638.csv",
+      "nuevas": 8501,
+      "actualizadas": 4,
+      "sin_cambios": 0,
+      "total_final": 83215
+    },
+    {
+      "processed_file": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\licitaciones_processed_241_270_20260428_150726.csv",
+      "nuevas": 9588,
+      "actualizadas": 3,
+      "sin_cambios": 0,
+      "total_final": 92803
+    },
+    {
+      "processed_file": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\licitaciones_processed_271_300_20260428_152300.csv",
+      "nuevas": 9665,
+      "actualizadas": 5,
+      "sin_cambios": 0,
+      "total_final": 102468
+    },
+    {
+      "processed_file": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\licitaciones_processed_301_330_20260428_152520.csv",
+      "nuevas": 10398,
+      "actualizadas": 3,
+      "sin_cambios": 0,
+      "total_final": 112866
+    },
+    {
+      "processed_file": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\licitaciones_processed_331_360_20260428_152741.csv",
+      "nuevas": 8556,
+      "actualizadas": 1,
+      "sin_cambios": 0,
+      "total_final": 121422
+    },
+    {
+      "processed_file": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\licitaciones_processed_361_365_20260428_152818.csv",
+      "nuevas": 1925,
+      "actualizadas": 0,
+      "sin_cambios": 0,
+      "total_final": 123347
+    }
+  ]
+}

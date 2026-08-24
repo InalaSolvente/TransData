@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-08T00:26:05.632930",
+    "input_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\licitaciones_transport_master.csv",
+    "min_score": 3
+  },
+  "results": {
+    "input_rows": 7848,
+    "kept_rows": 6039,
+    "removed_rows": 1809,
+    "review_rows": 362,
+    "kept_rule_counts": {
+      "strong_phrase": 3916,
+      "generic_transport_with_context": 1516,
+      "strong_land_mode": 599,
+      "scored_passenger_context": 8
+    },
+    "removed_rule_counts": {
+      "rejected": 1511,
+      "rejected_exclusion_context": 265,
+      "rejected_mixed_passenger_cargo": 21,
+      "rejected_mixed_cargo": 10,
+      "rejected_negative_score": 2
+    },
+    "review_flag_counts": {
+      "borderline_generic": 324,
+      "mixed_mode_review": 38
+    }
+  }
+}

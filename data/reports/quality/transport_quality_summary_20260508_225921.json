@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-05-08T22:59:21.519498",
+  "total_rows": 7676,
+  "unique_codigos": 7676,
+  "enriched_rows": 7676,
+  "adjudicacion_capturada_rows": 5032,
+  "refresh_pending_rows": 2644,
+  "detail_status_counts": {
+    "success": 7676
+  },
+  "detalle_estado_counts_top10": {
+    "adjudicada": 5171,
+    "desierta (o art. 3 ó 9 ley 19.886)": 2037,
+    "revocada": 299,
+    "cerrada": 148,
+    "publicada": 16,
+    "suspendida": 5
+  },
+  "issues_count": 3,
+  "severity_counts": {
+    "critical": 0,
+    "warning": 151,
+    "info": 3
+  }
+}

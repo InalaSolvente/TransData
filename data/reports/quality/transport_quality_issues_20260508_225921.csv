@@ -1,0 +1,4 @@
+﻿issue_type,severity,count,description
+adjudicadas_sin_adjudicacion_capturada,warning,145,Licitaciones adjudicadas que aun no tienen adjudicacion capturada en el master.
+proveedor_adjudicado_en_no_adjudicadas,warning,6,Filas con proveedor adjudicado informado pero sin estado adjudicada.
+transport_score_bajo,info,3,Filas con score de transporte menor al umbral base 3.

@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-06T16:38:40.466969",
+    "project_root": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main"
+  },
+  "raw_layer": {
+    "raw_files": 69,
+    "batch_summary_files": 5,
+    "raw_with_records": 65,
+    "raw_without_records": 0,
+    "raw_all_failed": 4,
+    "success_dates_count": 1824,
+    "failed_dates_count": 4,
+    "success_date_range_start": "2021-05-01",
+    "success_date_range_end": "2026-04-28",
+    "total_records_found_raw": 733408,
+    "latest_batch_summary_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\raw\\mp_batch_summary_1_1825_20260430_084807.json",
+    "latest_batch_summary": {
+      "dias_pendientes_consultados": 530,
+      "total_ventanas": 19,
+      "ventanas_exitosas": 19,
+      "ventanas_fallidas": 0,
+      "ventanas_con_datos": 19,
+      "ventanas_sin_datos": 0,
+      "ventanas_todas_las_consultas_fallidas": 0
+    }
+  },
+  "processed_layer": {
+    "processed_files": 65,
+    "total_processed_rows": 732256,
+    "latest_processed_file": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\licitaciones_processed_1807_1825_20260430_084807.csv",
+    "latest_transform_summary_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\mp_transform_summary_20260506_162332.json",
+    "latest_transform_summary": {
+      "metadata": {
+        "type": "transform_batch_summary",
+        "started_at": "2026-05-06T16:23:32.314640",
+        "ended_at": "2026-05-06T16:23:32.362444",
+        "raw_dir": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\raw",
+        "processed_dir": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed",
+        "pattern": "mp_raw_*.json",
+        "overwrite": false
+      },
+      "results": {
+        "total_raw_files": 69,
+        "processed": 0,
+        "skipped_existing": 65,
+        "no_records": 4,
+        "failed": 0,
+        "total_rows_processed": 0
+      }
+    },
+    "latest_runner_summary_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\pipeline\\mp_transform_runner_summary_20260506_162333.json",
+    "latest_runner_summary": {
+      "metadata": {
+        "type": "transform_runner_summary",
+        "started_at": "2026-05-06T16:23:32.308230",
+        "ended_at": "2026-05-06T16:23:33.169727",
+        "raw_pattern": "mp_raw_*.json",
+        "overwrite": false,
+        "min_score": 3,
+        "enrich_limit": 0,
+        "enrich_only_errors": true,
+        "enrich_max_attempts_per_code": 3,
+        "enrich_sleep_sec": 0.8
+      },
+      "steps": {
+        "transform_summary_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\mp_transform_summary_20260506_162332.json",
+        "transport_selection_result": {
+          "executed": false,
+          "source_label": "no_new_processed",
+          "source_files": 0,
+          "transport_rows": 0,
+          "filtered_path": null,
+          "summary_path": null
+        },
+        "append_result": {
+          "executed": false,
+          "processed_files_used": 0,
+          "master_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\licitaciones_transport_master.csv",
+          "summary_path": null
+        },
+        "enrich_result": {
+          "executed": true,
+          "master_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\licitaciones_transport_master.csv",
+          "pending_codes": 0,
+          "successes": 0,
+          "errors": 0,
+          "updated_at": "2026-05-06T16:23:33.166731",
+          "total_rows": 7848,
+          "enriched_rows": 0,
+          "pending_rows": 7848,
+          "pending_status_rows": 7848,
+          "error_status_rows": 0,
+          "retry_needed_rows": 0,
+          "average_attempts": 0.0,
+          "max_attempts": 0,
+          "only_errors": true,
+          "max_attempts_per_code": 3,
+          "sleep_sec": 0.8,
+          "summary_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\mp_enrich_transport_summary_20260506_162333.json"
+        }
+      }
+    }
+  },
+  "master_layer": {
+    "general_master_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\licitaciones_master.csv",
+    "general_master_rows": 123347,
+    "transport_master_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\licitaciones_transport_master.csv",
+    "transport_master_rows": 7848,
+    "transport_enriched_rows": 100,
+    "transport_pending_enrich_rows": 7748,
+    "transport_error_status_rows": 0,
+    "transport_retry_needed_rows": 0,
+    "transport_average_attempts": 0.0127420998980632,
+    "transport_enrich_backlog": {
+      "total_rows": 7848,
+      "enriched_rows": 100,
+      "pending_rows": 7748,
+      "pending_status_rows": 7748,
+      "error_status_rows": 0,
+      "retry_needed_rows": 0,
+      "average_attempts": 0.0127420998980632,
+      "max_attempts": 1
+    },
+    "latest_enrich_summary_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\mp_enrich_transport_summary_20260506_163815.json",
+    "latest_enrich_summary": {
+      "master_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\licitaciones_transport_master.csv",
+      "pending_codes": 100,
+      "successes": 100,
+      "errors": 0,
+      "updated_at": "2026-05-06T16:38:15.901613",
+      "total_rows": 7848,
+      "enriched_rows": 100,
+      "pending_rows": 7748,
+      "pending_status_rows": 7748,
+      "error_status_rows": 0,
+      "retry_needed_rows": 0,
+      "average_attempts": 0.0127420998980632,
+      "max_attempts": 1,
+      "only_errors": false,
+      "max_attempts_per_code": null,
+      "sleep_sec": 0.8
+    }
+  }
+}

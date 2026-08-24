@@ -209,6 +209,9 @@ cython_debug/
 /web/.env.local
 /web/*.tsbuildinfo
 
+# Local runtime logs
+*.log
+
 # Marimo
 marimo/_static/
 marimo/_lsp/

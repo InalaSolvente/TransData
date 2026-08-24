@@ -1,0 +1,384 @@
+{
+  "generated_at": "2026-05-08T23:07:36.664613",
+  "source_preference": {
+    "primary": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\licitaciones_transport_master_core.csv",
+    "fallback": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\licitaciones_transport_master.csv"
+  },
+  "views": {
+    "listing": {
+      "purpose": "Vista liviana para tablas, busqueda y resultados paginados.",
+      "primary_key": "codigo_licitacion",
+      "fields": [
+        {
+          "name": "codigo_licitacion",
+          "description": "Identificador unico de la licitacion.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "nombre",
+          "description": "Titulo corto mostrado en listados.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "estado",
+          "description": "Estado textual actual o enriquecido.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "estado_bucket",
+          "description": "Bucket normalizado para filtros rapidos.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "fecha_publicacion",
+          "description": "Fecha de publicacion de la licitacion.",
+          "dtype": "datetime64[ns]",
+          "nullable": true
+        },
+        {
+          "name": "fecha_cierre",
+          "description": "Fecha de cierre de la licitacion.",
+          "dtype": "datetime64[ns]",
+          "nullable": true
+        },
+        {
+          "name": "periodo_publicacion",
+          "description": "Periodo YYYY-MM para agregaciones y filtros.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "comprador_nombre",
+          "description": "Nombre del organismo comprador.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "comprador_rut",
+          "description": "RUT del comprador si esta disponible.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "region",
+          "description": "Region del comprador.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "comuna",
+          "description": "Comuna del comprador.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "monto_estimado",
+          "description": "Monto estimado de referencia.",
+          "dtype": "float64",
+          "nullable": true
+        },
+        {
+          "name": "monto_adjudicado",
+          "description": "Monto adjudicado capturado si existe.",
+          "dtype": "float64",
+          "nullable": true
+        },
+        {
+          "name": "moneda",
+          "description": "Moneda del monto informado.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "transport_score",
+          "description": "Score de clasificacion transporte.",
+          "dtype": "int64",
+          "nullable": false
+        },
+        {
+          "name": "revision_segmento",
+          "description": "Segmento validado manualmente.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "revision_prioridad",
+          "description": "Prioridad de negocio asignada.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "revision_decision",
+          "description": "Decision final de inclusion sectorial.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "flag_mixed_bundle",
+          "description": "Indica mezcla con otros componentes.",
+          "dtype": "bool",
+          "nullable": false
+        },
+        {
+          "name": "flag_clean_transport_amount",
+          "description": "Indica si el monto es utilizable sin depuracion adicional.",
+          "dtype": "bool",
+          "nullable": false
+        },
+        {
+          "name": "adjudicacion_capturada",
+          "description": "Indica si la adjudicacion ya fue capturada.",
+          "dtype": "bool",
+          "nullable": false
+        },
+        {
+          "name": "requiere_refresh_adjudicacion",
+          "description": "Indica si aun requiere refresh de adjudicacion.",
+          "dtype": "bool",
+          "nullable": false
+        },
+        {
+          "name": "fue_enriquecida",
+          "description": "Indica si paso por enrich de detalle.",
+          "dtype": "bool",
+          "nullable": false
+        },
+        {
+          "name": "url_ficha",
+          "description": "URL de la ficha original.",
+          "dtype": "object",
+          "nullable": false
+        }
+      ],
+      "recommended_default_sort": [
+        "fecha_publicacion desc",
+        "codigo_licitacion asc"
+      ],
+      "recommended_filters": [
+        "estado_bucket",
+        "region",
+        "comuna",
+        "periodo_publicacion",
+        "revision_segmento",
+        "revision_prioridad",
+        "revision_decision",
+        "adjudicacion_capturada",
+        "requiere_refresh_adjudicacion"
+      ]
+    },
+    "detail": {
+      "purpose": "Vista detallada para ficha individual y exploracion profunda.",
+      "primary_key": "codigo_licitacion",
+      "fields": [
+        {
+          "name": "codigo_licitacion",
+          "description": "Identificador unico de la licitacion.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "nombre",
+          "description": "Nombre enriquecido o base de la licitacion.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "descripcion",
+          "description": "Descripcion completa para lectura en ficha.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "estado",
+          "description": "Estado textual actual o enriquecido.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "estado_bucket",
+          "description": "Bucket normalizado para filtros rapidos.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "fecha_publicacion",
+          "description": "Fecha de publicacion.",
+          "dtype": "datetime64[ns]",
+          "nullable": true
+        },
+        {
+          "name": "fecha_cierre",
+          "description": "Fecha de cierre.",
+          "dtype": "datetime64[ns]",
+          "nullable": true
+        },
+        {
+          "name": "dias_hasta_cierre",
+          "description": "Dias entre publicacion y cierre.",
+          "dtype": "float64",
+          "nullable": true
+        },
+        {
+          "name": "comprador_nombre",
+          "description": "Organismo comprador.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "comprador_rut",
+          "description": "RUT del comprador.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "region",
+          "description": "Region del comprador.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "comuna",
+          "description": "Comuna del comprador.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "unidad_nombre",
+          "description": "Unidad compradora cuando existe.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "monto_estimado",
+          "description": "Monto estimado.",
+          "dtype": "float64",
+          "nullable": true
+        },
+        {
+          "name": "monto_adjudicado",
+          "description": "Monto adjudicado capturado.",
+          "dtype": "float64",
+          "nullable": true
+        },
+        {
+          "name": "moneda",
+          "description": "Moneda informada.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "proveedor_adjudicado_nombre",
+          "description": "Nombre del proveedor adjudicado.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "proveedor_adjudicado_rut",
+          "description": "RUT del proveedor adjudicado.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "transport_score",
+          "description": "Score de clasificacion transporte.",
+          "dtype": "int64",
+          "nullable": false
+        },
+        {
+          "name": "transport_rule",
+          "description": "Regla dominante que clasifico la licitacion.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "revision_decision",
+          "description": "Decision final de inclusion sectorial.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "revision_segmento",
+          "description": "Segmento validado manualmente.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "revision_prioridad",
+          "description": "Prioridad de negocio.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "revision_confianza",
+          "description": "Confianza de la revision manual.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "revision_pendiente_manual",
+          "description": "Marca casos aun pendientes de revision.",
+          "dtype": "bool",
+          "nullable": false
+        },
+        {
+          "name": "flag_mixed_bundle",
+          "description": "Marca mezcla de transporte con otros componentes.",
+          "dtype": "bool",
+          "nullable": false
+        },
+        {
+          "name": "flag_clean_transport_amount",
+          "description": "Indica si el monto puede usarse directamente.",
+          "dtype": "bool",
+          "nullable": false
+        },
+        {
+          "name": "adjudicacion_capturada",
+          "description": "Indica si la adjudicacion ya fue capturada.",
+          "dtype": "bool",
+          "nullable": false
+        },
+        {
+          "name": "requiere_refresh_adjudicacion",
+          "description": "Indica si aun requiere refresh.",
+          "dtype": "bool",
+          "nullable": false
+        },
+        {
+          "name": "fue_enriquecida",
+          "description": "Indica si paso por enrich de detalle.",
+          "dtype": "bool",
+          "nullable": false
+        },
+        {
+          "name": "ultima_revision",
+          "description": "Ultima revision o refresh conocida.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "ultima_actualizacion_detectada",
+          "description": "Ultima actualizacion detectada en el master.",
+          "dtype": "object",
+          "nullable": false
+        },
+        {
+          "name": "url_ficha",
+          "description": "URL a la ficha original.",
+          "dtype": "object",
+          "nullable": false
+        }
+      ],
+      "recommended_related_lookup": "codigo_licitacion"
+    }
+  },
+  "business_notes": {
+    "mixed_bundle_policy": "Si flag_mixed_bundle es true, el monto no debe usarse directamente para market sizing sin depuracion adicional.",
+    "manual_review_policy": "revision_decision y revision_segmento resumen la capa de revision manual aplicada al core.",
+    "refresh_policy": "requiere_refresh_adjudicacion marca licitaciones cuyo detalle de adjudicacion aun puede cambiar."
+  }
+}

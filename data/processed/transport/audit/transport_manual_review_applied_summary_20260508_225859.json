@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-08T22:59:01.803224",
+    "core_master_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\licitaciones_transport_master_core.csv"
+  },
+  "input_rows": 7848,
+  "review_rows_loaded": 362,
+  "matched_manual_review_rows": 362,
+  "decision_counts": {
+    "INCLUIR": 7343,
+    "INCLUIR_PARCIAL": 333,
+    "EXCLUIR": 156,
+    "REVISAR_MANUAL": 16
+  },
+  "segment_counts": {
+    "educacion": 206,
+    "social": 81,
+    "salud": 61,
+    "otros": 14
+  },
+  "priority_counts": {
+    "BAJA": 149,
+    "ALTA": 117,
+    "MEDIA": 89,
+    "NO_APLICA": 7
+  },
+  "included_core_rows": 7676,
+  "partial_include_rows": 333,
+  "excluded_rows": 156,
+  "manual_review_rows": 16
+}

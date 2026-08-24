@@ -1,0 +1,21 @@
+{
+  "master_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\licitaciones_transport_master.csv",
+  "pending_codes": 7748,
+  "successes": 7748,
+  "errors": 0,
+  "updated_at": "2026-05-07T02:04:46.948588",
+  "total_rows": 7848,
+  "enriched_rows": 7848,
+  "pending_rows": 0,
+  "pending_status_rows": 0,
+  "error_status_rows": 0,
+  "retry_needed_rows": 0,
+  "average_attempts": 1.0,
+  "max_attempts": 1,
+  "only_errors": false,
+  "max_attempts_per_code": null,
+  "sleep_sec": 0.8,
+  "pause_every": 100,
+  "pause_seconds": 4.0,
+  "configured_limit": 10000
+}

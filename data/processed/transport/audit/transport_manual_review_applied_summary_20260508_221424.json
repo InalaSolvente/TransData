@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-08T22:14:26.612052",
+    "core_master_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\licitaciones_transport_master_core.csv"
+  },
+  "input_rows": 7848,
+  "review_rows_loaded": 0,
+  "matched_manual_review_rows": 0,
+  "decision_counts": {
+    "INCLUIR": 7341,
+    "INCLUIR_PARCIAL": 329,
+    "EXCLUIR": 162,
+    "REVISAR_MANUAL": 16
+  },
+  "segment_counts": {},
+  "priority_counts": {},
+  "included_core_rows": 7670,
+  "partial_include_rows": 329,
+  "excluded_rows": 162,
+  "manual_review_rows": 16
+}

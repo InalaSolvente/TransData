@@ -1,0 +1,1007 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-08T22:59:21.161371",
+    "project_root": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main"
+  },
+  "raw_layer": {
+    "raw_files": 69,
+    "batch_summary_files": 5,
+    "raw_with_records": 65,
+    "raw_without_records": 0,
+    "raw_all_failed": 4,
+    "success_dates_count": 1824,
+    "failed_dates_count": 4,
+    "success_date_range_start": "2021-05-01",
+    "success_date_range_end": "2026-04-28",
+    "total_records_found_raw": 733408,
+    "latest_batch_summary_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\raw\\mp_batch_summary_1_1825_20260430_084807.json",
+    "latest_batch_summary": {
+      "dias_pendientes_consultados": 530,
+      "total_ventanas": 19,
+      "ventanas_exitosas": 19,
+      "ventanas_fallidas": 0,
+      "ventanas_con_datos": 19,
+      "ventanas_sin_datos": 0,
+      "ventanas_todas_las_consultas_fallidas": 0
+    }
+  },
+  "processed_layer": {
+    "processed_files": 65,
+    "total_processed_rows": 732256,
+    "latest_processed_file": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\licitaciones_processed_1807_1825_20260430_084807.csv",
+    "latest_transform_summary_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\mp_transform_summary_20260506_162332.json",
+    "latest_transform_summary": {
+      "metadata": {
+        "type": "transform_batch_summary",
+        "started_at": "2026-05-06T16:23:32.314640",
+        "ended_at": "2026-05-06T16:23:32.362444",
+        "raw_dir": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\raw",
+        "processed_dir": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed",
+        "pattern": "mp_raw_*.json",
+        "overwrite": false
+      },
+      "results": {
+        "total_raw_files": 69,
+        "processed": 0,
+        "skipped_existing": 65,
+        "no_records": 4,
+        "failed": 0,
+        "total_rows_processed": 0
+      }
+    },
+    "latest_runner_summary_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\pipeline\\mp_transform_runner_summary_20260506_162333.json",
+    "latest_runner_summary": {
+      "metadata": {
+        "type": "transform_runner_summary",
+        "started_at": "2026-05-06T16:23:32.308230",
+        "ended_at": "2026-05-06T16:23:33.169727",
+        "raw_pattern": "mp_raw_*.json",
+        "overwrite": false,
+        "min_score": 3,
+        "enrich_limit": 0,
+        "enrich_only_errors": true,
+        "enrich_max_attempts_per_code": 3,
+        "enrich_sleep_sec": 0.8
+      },
+      "steps": {
+        "transform_summary_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\mp_transform_summary_20260506_162332.json",
+        "transport_selection_result": {
+          "executed": false,
+          "source_label": "no_new_processed",
+          "source_files": 0,
+          "transport_rows": 0,
+          "filtered_path": null,
+          "summary_path": null
+        },
+        "append_result": {
+          "executed": false,
+          "processed_files_used": 0,
+          "master_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\licitaciones_transport_master.csv",
+          "summary_path": null
+        },
+        "enrich_result": {
+          "executed": true,
+          "master_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\licitaciones_transport_master.csv",
+          "pending_codes": 0,
+          "successes": 0,
+          "errors": 0,
+          "updated_at": "2026-05-06T16:23:33.166731",
+          "total_rows": 7848,
+          "enriched_rows": 0,
+          "pending_rows": 7848,
+          "pending_status_rows": 7848,
+          "error_status_rows": 0,
+          "retry_needed_rows": 0,
+          "average_attempts": 0.0,
+          "max_attempts": 0,
+          "only_errors": true,
+          "max_attempts_per_code": 3,
+          "sleep_sec": 0.8,
+          "summary_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\mp_enrich_transport_summary_20260506_162333.json"
+        }
+      }
+    }
+  },
+  "master_layer": {
+    "general_master_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\licitaciones_master.csv",
+    "general_master_rows": 123347,
+    "transport_master_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\licitaciones_transport_master.csv",
+    "transport_master_rows": 7848,
+    "transport_core_master_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\licitaciones_transport_master_core.csv",
+    "transport_core_master_rows": 7676,
+    "transport_enriched_rows": 7848,
+    "transport_pending_enrich_rows": 0,
+    "transport_error_status_rows": 0,
+    "transport_retry_needed_rows": 0,
+    "transport_average_attempts": 1.0,
+    "transport_adjudicacion_capturada_rows": 5135,
+    "transport_refresh_pending_award_rows": 2713,
+    "transport_supplier_name_rows": 5135,
+    "transport_supplier_rut_rows": 5135,
+    "transport_refresh_success_rows": 7847,
+    "transport_refresh_error_rows": 1,
+    "transport_enrich_backlog": {
+      "total_rows": 7848,
+      "enriched_rows": 7848,
+      "pending_rows": 0,
+      "pending_status_rows": 0,
+      "error_status_rows": 0,
+      "retry_needed_rows": 0,
+      "average_attempts": 1.0,
+      "max_attempts": 1
+    },
+    "transport_refresh_history_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\history\\licitaciones_transport_status_history.csv",
+    "transport_refresh_history_rows": 7847,
+    "transport_latest_refresh_at": "2026-05-08 19:42:05",
+    "latest_enrich_summary_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\mp_enrich_transport_summary_20260507_020446.json",
+    "latest_enrich_summary": {
+      "master_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\licitaciones_transport_master.csv",
+      "pending_codes": 7748,
+      "successes": 7748,
+      "errors": 0,
+      "updated_at": "2026-05-07T02:04:46.948588",
+      "total_rows": 7848,
+      "enriched_rows": 7848,
+      "pending_rows": 0,
+      "pending_status_rows": 0,
+      "error_status_rows": 0,
+      "retry_needed_rows": 0,
+      "average_attempts": 1.0,
+      "max_attempts": 1,
+      "only_errors": false,
+      "max_attempts_per_code": null,
+      "sleep_sec": 0.8,
+      "pause_every": 100,
+      "pause_seconds": 4.0,
+      "configured_limit": 10000
+    },
+    "latest_refresh_summary_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\mp_refresh_summary_20260508_194206.json",
+    "latest_refresh_summary": {
+      "master_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\licitaciones_transport_master.csv",
+      "history_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\history\\licitaciones_transport_status_history.csv",
+      "selected_rows": 3397,
+      "processed_rows": 3397,
+      "successful_rows": 3397,
+      "failed_rows": 0,
+      "changed_rows": 3397,
+      "state_changed_rows": 31,
+      "award_changed_rows": 2261,
+      "errors": 0,
+      "updated_at": "2026-05-08T19:42:06.784686",
+      "refresh_limit": 6000,
+      "refresh_timeout": 10,
+      "refresh_retries": 5,
+      "refresh_backoff_seconds": 1.5,
+      "refresh_sleep_sec": 0.2,
+      "force_terminal_awards": true,
+      "repaired_inconsistent_award_rows": 0,
+      "refresh_revisit_after_days": 7,
+      "refresh_revisit_statuses": [
+        "18",
+        "5"
+      ],
+      "only_never_refreshed": true
+    }
+  },
+  "derived_layer": {
+    "analytics_dir": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\analytics",
+    "latest_analytics_summary_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\analytics\\transport_analytics_summary_20260508_225921.json",
+    "latest_analytics_summary": {
+      "generated_at": "2026-05-08T22:59:21.834880",
+      "rows": 7676,
+      "unique_codigos": 7676,
+      "enriched_rows": 7676,
+      "adjudicacion_capturada_rows": 5032,
+      "refresh_pending_rows": 2644,
+      "publicacion_min": "2026-02-04T17:10:00",
+      "publicacion_max": "2026-04-24T11:07:00"
+    },
+    "analytics_rows": 7676,
+    "quality_dir": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\reports\\quality",
+    "latest_quality_summary_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\reports\\quality\\transport_quality_summary_20260508_225921.json",
+    "latest_quality_summary": {
+      "generated_at": "2026-05-08T22:59:21.519498",
+      "total_rows": 7676,
+      "unique_codigos": 7676,
+      "enriched_rows": 7676,
+      "adjudicacion_capturada_rows": 5032,
+      "refresh_pending_rows": 2644,
+      "detail_status_counts": {
+        "success": 7676
+      },
+      "detalle_estado_counts_top10": {
+        "adjudicada": 5171,
+        "desierta (o art. 3 ó 9 ley 19.886)": 2037,
+        "revocada": 299,
+        "cerrada": 148,
+        "publicada": 16,
+        "suspendida": 5
+      },
+      "issues_count": 3,
+      "severity_counts": {
+        "critical": 0,
+        "warning": 151,
+        "info": 3
+      }
+    },
+    "quality_issues_count": 3,
+    "serving_dir": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\serving",
+    "latest_serving_manifest_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\serving\\transport_dataset_manifest_20260508_225922.json",
+    "latest_serving_manifest": {
+      "generated_at": "2026-05-08T22:59:22.012886",
+      "rows": 7676,
+      "columns": [
+        "codigo_licitacion",
+        "nombre",
+        "descripcion",
+        "estado",
+        "estado_bucket",
+        "fecha_publicacion",
+        "fecha_cierre",
+        "comprador_nombre",
+        "comprador_rut",
+        "region",
+        "comuna",
+        "unidad_nombre",
+        "monto_estimado",
+        "monto_adjudicado",
+        "moneda",
+        "url_ficha",
+        "es_transporte",
+        "transport_score",
+        "transport_rule",
+        "fue_enriquecida",
+        "adjudicacion_capturada",
+        "requiere_refresh_adjudicacion",
+        "ultima_revision",
+        "ultima_actualizacion_detectada",
+        "periodo_publicacion",
+        "dias_hasta_cierre"
+      ],
+      "filters": {
+        "estado_bucket": [
+          "adjudicada",
+          "cerrada",
+          "desierta",
+          "otro",
+          "publicada"
+        ],
+        "region": [
+          "Región Aysén del General Carlos Ibáñez del Campo",
+          "Región Metropolitana de Santiago",
+          "Región de Antofagasta",
+          "Región de Arica y Parinacota",
+          "Región de Atacama",
+          "Región de Coquimbo",
+          "Región de Los Ríos",
+          "Región de Magallanes y de la Antártica",
+          "Región de Tarapacá",
+          "Región de Valparaíso",
+          "Región de la Araucanía",
+          "Región de los Lagos",
+          "Región del Biobío",
+          "Región del Libertador General Bernardo O´Higgins",
+          "Región del Maule",
+          "Región del Ñuble"
+        ],
+        "comuna": [
+          "Algarrobo",
+          "Alhué",
+          "Alto Bio Bio",
+          "Alto Del Carmen",
+          "Alto Hospicio",
+          "Ancud",
+          "Angol",
+          "Antofagasta",
+          "Antuco",
+          "Arauco",
+          "Arica",
+          "Aysén",
+          "Buin",
+          "Bulnes",
+          "Cabildo",
+          "Cabo de Hornos",
+          "Cabrero",
+          "Calama",
+          "Calbuco",
+          "Caldera",
+          "Calera De Tango",
+          "Camiña",
+          "Canela",
+          "Carahue",
+          "Cartagena",
+          "Casablanca",
+          "Castro",
+          "Catemu",
+          "Cauquenes",
+          "Cañete",
+          "Cerrillos",
+          "Cerro Navia",
+          "Chanco",
+          "Chañaral",
+          "Chiguayante",
+          "Chile Chico",
+          "Chillán",
+          "Chillán Viejo",
+          "Chimbarongo",
+          "Chol Chol",
+          "Chonchi",
+          "Chépica",
+          "Cisnes",
+          "Cobquecura",
+          "Cochamó",
+          "Cochrane",
+          "Codegua",
+          "Coelemu",
+          "Coihueco",
+          "Coinco",
+          "Colbún",
+          "Colchane",
+          "Colina",
+          "Collipulli",
+          "Coltauco",
+          "Combarbalá",
+          "Concepción",
+          "Conchalí",
+          "Concón",
+          "Constitución",
+          "Contulmo",
+          "Copiapó",
+          "Coquimbo",
+          "Coronel",
+          "Corral",
+          "Coyhaique",
+          "Cunco",
+          "Curacautín",
+          "Curacaví",
+          "Curanilahue",
+          "Curarrehue",
+          "Curepto",
+          "Curicó",
+          "Dalcahue",
+          "Diego De Almagro",
+          "Doñihue",
+          "El Bosque",
+          "El Carmen",
+          "El Quisco",
+          "El Tabo",
+          "Empedrado",
+          "Ercilla",
+          "Estación Central",
+          "Florida",
+          "Freire",
+          "Frutillar",
+          "Futaleufú",
+          "Futrono",
+          "Galvarino",
+          "General Lagos",
+          "Gorbea",
+          "Graneros",
+          "Hijuelas",
+          "Hualaihué",
+          "Hualañé",
+          "Hualpén",
+          "Hualqui",
+          "Huara",
+          "Huasco",
+          "Huechuraba",
+          "Illapel",
+          "Independencia",
+          "Iquique",
+          "Isla de Maipo",
+          "La Calera",
+          "La Cisterna",
+          "La Cruz",
+          "La Estrella",
+          "La Florida",
+          "La Granja",
+          "La Ligua",
+          "La Pintana",
+          "La Reina",
+          "La Serena",
+          "La Unión",
+          "Laguna Blanca",
+          "Laja",
+          "Lampa",
+          "Lanco",
+          "Las Cabras",
+          "Las Condes",
+          "Las Guaitecas",
+          "Lautaro",
+          "Lebu",
+          "Licantén",
+          "Limache",
+          "Linares",
+          "Litueche",
+          "Llanquihue",
+          "Llay-Llay",
+          "Lo Barnechea",
+          "Lo Espejo",
+          "Lo Prado",
+          "Lolol",
+          "Loncoche",
+          "Longaví",
+          "Lonquimay",
+          "Los Alamos",
+          "Los Andes",
+          "Los Angeles",
+          "Los Lagos",
+          "Los Muermos",
+          "Los Sauces",
+          "Los Vilos",
+          "Lota",
+          "Lumaco",
+          "Machalí",
+          "Macul",
+          "Maipú",
+          "Malloa",
+          "Marchigue",
+          "Mariquina",
+          "María Elena",
+          "María Pinto",
+          "Maule",
+          "Maullín",
+          "Mejillones",
+          "Melipeuco",
+          "Melipilla",
+          "Molina",
+          "Monte Patria",
+          "Mostazal",
+          "Mulchén",
+          "Máfil",
+          "Nacimiento",
+          "Nancagua",
+          "Navidad",
+          "Negrete",
+          "Ninhue",
+          "Nogales",
+          "O Higgins",
+          "Olivar",
+          "Olmué",
+          "Osorno",
+          "Ovalle",
+          "Padre Hurtado",
+          "Padre Las Casas",
+          "Paillaco",
+          "Paine",
+          "Palena",
+          "Palmilla",
+          "Panguipulli",
+          "Paredones",
+          "Parral",
+          "Pedro Aguirre Cerda",
+          "Pelarco",
+          "Pelluhue",
+          "Pemuco",
+          "Penco",
+          "Peralillo",
+          "Perquenco",
+          "Petorca",
+          "Peumo",
+          "Peñaflor",
+          "Peñalolén",
+          "Pichidegua",
+          "Pichilemu",
+          "Pinto",
+          "Pirque",
+          "Pitrufquén",
+          "Placilla",
+          "Portezuelo",
+          "Porvenir",
+          "Pozo Almonte",
+          "Providencia",
+          "Puchuncaví",
+          "Pucón",
+          "Pudahuel",
+          "Puente Alto",
+          "Puerto Montt",
+          "Puerto Natales",
+          "Puerto Octay",
+          "Puerto Saavedra",
+          "Puerto Varas",
+          "Pumanque",
+          "Punitaqui",
+          "Punta Arenas",
+          "Purranque",
+          "Purén",
+          "Putaendo",
+          "Putre",
+          "Puyehue",
+          "Quemchi",
+          "Quilaco",
+          "Quilicura",
+          "Quilleco",
+          "Quillota",
+          "Quillón",
+          "Quilpué",
+          "Quinchao",
+          "Quinta Normal",
+          "Quinta de Tilcoco",
+          "Quintero",
+          "Quirihue",
+          "Rancagua",
+          "Ranquil",
+          "Rauco",
+          "Recoleta",
+          "Renaico",
+          "Renca",
+          "Rengo",
+          "Requinoa",
+          "Retiro",
+          "Rinconada",
+          "Romeral",
+          "Río Bueno",
+          "Río Claro",
+          "Río Hurtado",
+          "Río Ibáñez",
+          "Río Negro",
+          "Río Verde",
+          "Sagrada Familia",
+          "Salamanca",
+          "San Antonio",
+          "San Bernardo",
+          "San Carlos",
+          "San Clemente",
+          "San Esteban",
+          "San Fabián",
+          "San Felipe",
+          "San Fernando",
+          "San Gregorio",
+          "San Ignacio",
+          "San Javier",
+          "San Joaquín",
+          "San José de Maipo",
+          "San Juan de La Costa",
+          "San Miguel",
+          "San Nicolás",
+          "San Pablo",
+          "San Pedro",
+          "San Pedro de Atacama",
+          "San Pedro de La Paz",
+          "San Rafael",
+          "San Ramón",
+          "San Rosendo",
+          "San Vicente de Tagua Tagua",
+          "Santa Bárbara",
+          "Santa Cruz",
+          "Santa Juana",
+          "Santa María",
+          "Santiago",
+          "Santiago Centro",
+          "Santo Domingo",
+          "Talagante",
+          "Talca",
+          "Talcahuano",
+          "Taltal",
+          "Temuco",
+          "Teno",
+          "Teodoro Schmidt",
+          "Tierra Amarilla",
+          "Til Til",
+          "Tirúa",
+          "Tocopilla",
+          "Tomé",
+          "Tortel",
+          "Traiguén",
+          "Tucapel",
+          "Valdivia",
+          "Vallenar",
+          "Valparaíso",
+          "Victoria",
+          "Vicuña",
+          "Vilcún",
+          "Villa Alegre",
+          "Villa Alemana",
+          "Villarrica",
+          "Vitacura",
+          "Viña del Mar",
+          "Yerbas Buenas",
+          "Yumbel",
+          "Yungay",
+          "Zapallar",
+          "Ñiquén",
+          "Ñuñoa"
+        ],
+        "periodo_publicacion": [
+          "2026-02",
+          "2026-03",
+          "2026-04",
+          "NaT"
+        ]
+      },
+      "stats": {
+        "enriched_rows": 7676,
+        "adjudicacion_capturada_rows": 5032,
+        "refresh_pending_rows": 2644,
+        "fecha_publicacion_min": "2026-02-04T17:10:00",
+        "fecha_publicacion_max": "2026-04-24T11:07:00"
+      },
+      "provisional_note": "Esta capa de serving es derivada del transport master core cuando existe, con fallback al transport master amplio. Puede ajustarse cuando el refresh estabilice estados y adjudicaciones."
+    },
+    "latest_serving_dataset_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\serving\\transport_dataset_latest.csv",
+    "serving_rows": 7676,
+    "transport_audit_dir": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\transport\\audit",
+    "latest_transport_rule_audit_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\transport\\audit\\transport_rule_audit_summary_20260508_002605.json",
+    "latest_transport_rule_audit": {
+      "metadata": {
+        "generated_at": "2026-05-08T00:26:05.632930",
+        "input_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\licitaciones_transport_master.csv",
+        "min_score": 3
+      },
+      "results": {
+        "input_rows": 7848,
+        "kept_rows": 6039,
+        "removed_rows": 1809,
+        "review_rows": 362,
+        "kept_rule_counts": {
+          "strong_phrase": 3916,
+          "generic_transport_with_context": 1516,
+          "strong_land_mode": 599,
+          "scored_passenger_context": 8
+        },
+        "removed_rule_counts": {
+          "rejected": 1511,
+          "rejected_exclusion_context": 265,
+          "rejected_mixed_passenger_cargo": 21,
+          "rejected_mixed_cargo": 10,
+          "rejected_negative_score": 2
+        },
+        "review_flag_counts": {
+          "borderline_generic": 324,
+          "mixed_mode_review": 38
+        }
+      }
+    },
+    "transport_rule_removed_rows": 1809,
+    "latest_transport_rule_review_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\transport\\audit\\transport_rule_review_summary_20260508_002618.json",
+    "latest_transport_rule_review": {
+      "metadata": {
+        "generated_at": "2026-05-08T00:26:18.561266",
+        "removed_input_path": "data\\processed\\transport\\audit\\transport_rule_audit_removed_20260508_002605.csv"
+      },
+      "results": {
+        "removed_rows": 1809,
+        "dominant_bucket": "generic_ambiguous"
+      }
+    },
+    "latest_transport_review_queue_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\transport\\audit\\transport_review_queue_summary_20260508_002933.json",
+    "latest_transport_review_queue": {
+      "metadata": {
+        "generated_at": "2026-05-08T00:29:33.738451",
+        "input_path": "data\\processed\\transport\\audit\\transport_rule_audit_review_20260508_002605.csv"
+      },
+      "results": {
+        "review_rows": 362,
+        "group_counts": {
+          "education": 181,
+          "social": 89,
+          "health": 47,
+          "other": 35,
+          "education_social": 6,
+          "education_health": 3,
+          "mixed_domain": 1
+        },
+        "flag_counts": {
+          "borderline_generic": 324,
+          "mixed_mode_review": 38
+        },
+        "group_samples": {
+          "education": [
+            {
+              "codigo_licitacion": "1002588-28-LE26",
+              "nombre_licitacion": "Servicio de Transporte de Salidas Pedagógicas",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "1298357-3-LE26",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE REGIONAL DE PASAJEROS 2026",
+              "transport_review_flag": "mixed_mode_review"
+            },
+            {
+              "codigo_licitacion": "1389584-7-LE26",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE PARA SALIDAS EXTRAESCOLARES",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "1501468-12-LP26",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE SLEP DEL ACONCAGUA",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "1605-20-LP26",
+              "nombre_licitacion": "LP-4568 Servicio de transporte de hijos e hijas de funcionariosas al jardín infantil y sala cuna institucional",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "3695-13-LE26",
+              "nombre_licitacion": "CONTRATACIÓN DEL SERVICIO DE TRANSPORTE DE ESCOLARES PARA JARDINES INFANTILES VTF Y CENTROS CECI DE LA COMUNA DE TENO 2026",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "4364-6-LE26",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE ESCUELA PASO EL ROBLE",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "14-2-LP26",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE SALA CUNA RM. COD - E1O2RT9",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "4596-10-LP26",
+              "nombre_licitacion": "CONVENIO DE SUMINISTRO SERVICIO DE TRANSPORTE SALIDAS PEDAGÓGICAS ESTABLECIMIENTOS EDUCACIONALES COMUNA DE SAN NICOLAS",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "1501468-1-LP26",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE JARDINES INFANTILES VTF",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "4272-1-LE26",
+              "nombre_licitacion": "MTS Servicio de transporte Escuela G27",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "602-3-LE26",
+              "nombre_licitacion": "“SERVICIO DE TRANSPORTE ACTIVIDADES ACADÉMICAS DEPORTIVA EXTRAESCOLARES E IMPREVISTOS DE LICEO JOSÉ TORIBIO MEDINA Y COLEGIO RIACHUELO” PERIODO MARZO A DICIEMBRE 2026",
+              "transport_review_flag": "borderline_generic"
+            }
+          ],
+          "education_health": [
+            {
+              "codigo_licitacion": "3736-123-L124",
+              "nombre_licitacion": "Servicio de Transporte, Pago de Entradas y Alimentación para Viaje Pedagógico Programa Escuelas Saludables para el Aprendizaje, Fondos Junaeb",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "3736-127-L124",
+              "nombre_licitacion": "Servicio de Transporte, Pago de Entradas y Alimentación para Viaje Pedagógico Programa Escuelas Saludables para el Aprendizaje, Fondos Junaeb",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "1059109-27-LE24",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE PASAJEROS PARA DEPORTITAS",
+              "transport_review_flag": "mixed_mode_review"
+            }
+          ],
+          "education_social": [
+            {
+              "codigo_licitacion": "2408-54-LP26",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE PROGRAMA APOYO ESCOLAR DIDECO 2026.",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "3656-129-L125",
+              "nombre_licitacion": "Suministro de servicio de transporte Programa 4a7 Escuela David del Curto y Escuela República de Francia",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "3656-126-L125",
+              "nombre_licitacion": "SUMINISTRO DE SERVICIO DE TRANSPORTE PROGRAMA 4a7 ESCUELA DAVID DEL CURTO Y ESCUELA REPUBLICA DE FRANCIA",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "2408-143-LE25",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE PROGRAMA APOYO ESCOLAR DIDECO 2025",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "2408-7-LE25",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE PROGRAMA APOYO ESCOLAR DIDECO 2025",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "1208985-5-LE22",
+              "nombre_licitacion": "Servicio de Transporte Privado diario Remunerado",
+              "transport_review_flag": "borderline_generic"
+            }
+          ],
+          "health": [
+            {
+              "codigo_licitacion": "1214102-27-LP26",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE PARA CENTROS DE SALUD",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "2392-18-LR26",
+              "nombre_licitacion": "Servicio de Transporte para Atención Domiciliaria y Comunitaria Dpto. de Salud",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "2703-40-L126",
+              "nombre_licitacion": "SC 11672 COMPRA DE SERVICIO DE TRANSPORTE PARA ATENCION CUIDADOS PALIATIVOS. PRAPS 2026",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "2734-10-LE26",
+              "nombre_licitacion": "LICITACIÓN “SERVICIO DE TRANSPORTE FOFAR",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "2734-7-LE26",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE PROGRAMA FONDO DE FARMACIA",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "924-2-LP26",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE SALUD OCUPACIONAL",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "1306643-48-LP25",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE DE PASAJEROS E INSUMOS",
+              "transport_review_flag": "mixed_mode_review"
+            },
+            {
+              "codigo_licitacion": "2078-39-LE25",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE TIPO SUV PARA EL PROGRAMA DE SALUD OCUPACIONAL OF. CENTRAL SC19",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "2132-24-LE25",
+              "nombre_licitacion": "Servicio de transporte Unidad de Salud Ocupacional",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "1057547-423-LE25",
+              "nombre_licitacion": "CONVENIO DE SERVICIO DE TRANSPORTE UNID PALIATIVOS",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "5602-39-LE25",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE PARA SALUD OCUPACIONAL",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "3864-4-LE25",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE PARA P. CUIDADOS PALIATIVOS",
+              "transport_review_flag": "borderline_generic"
+            }
+          ],
+          "mixed_domain": [
+            {
+              "codigo_licitacion": "1247197-41-LP23",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE PARA NIÑOS Y NIÑAS",
+              "transport_review_flag": "borderline_generic"
+            }
+          ],
+          "other": [
+            {
+              "codigo_licitacion": "2483-40-LE26",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE PARA PROGRAMA RED LOCAL DE APOYO Y CUIDADOS",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "2328-59-LE25",
+              "nombre_licitacion": "LIC E-43 SERVICIO DE TRANSPORTE GIRA DE ESTUDIO",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "2799-59-LE25",
+              "nombre_licitacion": " Servicio de Transporte Programa de Viajes Clubes y Organizaciones Adultos Mayores 2025-2026",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "188-51-LP25",
+              "nombre_licitacion": "Servicio de transporte integral Educación COMUDEF",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "3091-13-LE25",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE PARA ESTABL DE EDUCACIÓN",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "439-30-LE25",
+              "nombre_licitacion": "SEGUNDO LLAMADO SERVICIO DE TRANSPORTE PARA VIAJES EDUCATIVOS 2025",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "2136-14-LP25",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE PARA VISITAS DOMICILIARIAS",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "439-26-LE25",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE PARA VIAJES EDUCATIVOS 2025",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "1049-58-CO25",
+              "nombre_licitacion": "AUTORIZA EL LLAMADO Y LAS BASES DE LICITACIÓN PRIVADA PARA “SERVICIO DE TRASLADO DE PASAJEROS EN LANCHA MENOR PARA EL MUESTREO BIO-OCEANOGRÁFICO MENSUAL EN LA LOCALIDAD DE COLIUMO",
+              "transport_review_flag": "mixed_mode_review"
+            },
+            {
+              "codigo_licitacion": "3864-5-L125",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE PROG. MÁS ADULTOS MAYORES",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "1049-59-CO25",
+              "nombre_licitacion": "AUTORIZA EL LLAMADO Y LAS BASES DE LICITACIÓN PRIVADA PARA SERVICIO DE TRASLADO DE PASAJEROS EN LANCHA MENOR PARA EL MUESTREO BIO-OCEANOGRÁFICO MENSUAL EN LA ESTACION FIJA DE ARICA Y MEJILLONES",
+              "transport_review_flag": "mixed_mode_review"
+            },
+            {
+              "codigo_licitacion": "1049-40-LE25",
+              "nombre_licitacion": "SERVICIO DE TRASLADO DE PASAJEROS EN LANCHA MENOR PARA EL MUESTREO BIOOCEANOGRÁFICO MENSUAL EN LA LOCALIDAD DE COLIUMO”",
+              "transport_review_flag": "mixed_mode_review"
+            }
+          ],
+          "social": [
+            {
+              "codigo_licitacion": "1723-23-LE26",
+              "nombre_licitacion": "Servicio de Transporte  de la DIDECO",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "218-17-LE26",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE PRLAC M. DE SAN JOAQUÍN",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "2392-19-LE26",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE PARA PROGRAMA RED LOCAL DE APOYOS Y CUIDADOS",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "2408-14-LP26",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE PROGRAMA PRLAC 2025",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "2408-61-LP26",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE DIDECO 2026-2027.",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "2595-25-LE26",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE PGM ADULTO MAYOR PARRAL",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "2703-41-L126",
+              "nombre_licitacion": "SC 11674 COMPRA DE SERVICIO DE TRANSPORTE BIOPSICOSOCIAL CHILE CRECE CONTIGO 2026",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "3693-80-CO26",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE PROGRAMAS ADULTO MAYOR Y DISCAPACIDAD",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "3894-20-LE26",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE PROGRAMA RED LOCAL DE APOYOS Y CUIDADOS",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "3693-32-LE26",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE PROGRAMAS ADULTO MAYOR Y DI",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "1209395-2-LE26",
+              "nombre_licitacion": "SERVICIO DE TRANSPORTE PARA PROGRAMA FAE",
+              "transport_review_flag": "borderline_generic"
+            },
+            {
+              "codigo_licitacion": "3656-2-LE26",
+              "nombre_licitacion": "SUMINISTRO SERVICIO DE TRANSPORTE PROGRAMA DEPORTES OFICINA DE LA MUJER DISCAPACIDAD Y MUJERES JEFAS DE HOGAR",
+              "transport_review_flag": "borderline_generic"
+            }
+          ]
+        }
+      }
+    },
+    "transport_rule_review_rows": 362,
+    "transport_rule_review_group_counts": {
+      "education": 181,
+      "social": 89,
+      "health": 47,
+      "other": 35,
+      "education_social": 6,
+      "education_health": 3,
+      "mixed_domain": 1
+    }
+  }
+}

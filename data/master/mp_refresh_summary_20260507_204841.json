@@ -1,0 +1,20 @@
+{
+  "master_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\licitaciones_transport_master.csv",
+  "history_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\history\\licitaciones_transport_status_history.csv",
+  "selected_rows": 200,
+  "processed_rows": 200,
+  "successful_rows": 200,
+  "failed_rows": 0,
+  "changed_rows": 200,
+  "state_changed_rows": 0,
+  "award_changed_rows": 159,
+  "errors": 0,
+  "updated_at": "2026-05-07T20:48:41.478474",
+  "refresh_limit": 200,
+  "refresh_timeout": 25,
+  "refresh_retries": 5,
+  "refresh_backoff_seconds": 1.5,
+  "refresh_sleep_sec": 0.6,
+  "force_terminal_awards": true,
+  "repaired_inconsistent_award_rows": 0
+}

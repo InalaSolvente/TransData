@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "type": "append_master_summary",
+    "generated_at": "2026-04-30T18:29:18.225033",
+    "master_path": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\master\\licitaciones_transport_master.csv"
+  },
+  "results": {
+    "processed_files": 1,
+    "nuevas": 6481,
+    "actualizadas": 0,
+    "sin_cambios": 0,
+    "total_final": 6481
+  },
+  "files": [
+    {
+      "processed_file": "C:\\Users\\User\\OneDrive\\Desktop\\TransData-main\\data\\processed\\transport\\licitaciones_transport_candidates_new_processed_20260430_182917.csv",
+      "nuevas": 6481,
+      "actualizadas": 0,
+      "sin_cambios": 0,
+      "total_final": 6481
+    }
+  ]
+}

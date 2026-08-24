@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-05-08T22:59:21.834880",
+  "rows": 7676,
+  "unique_codigos": 7676,
+  "enriched_rows": 7676,
+  "adjudicacion_capturada_rows": 5032,
+  "refresh_pending_rows": 2644,
+  "publicacion_min": "2026-02-04T17:10:00",
+  "publicacion_max": "2026-04-24T11:07:00"
+}

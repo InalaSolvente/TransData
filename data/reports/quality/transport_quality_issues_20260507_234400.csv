@@ -1,0 +1,3 @@
+﻿issue_type,severity,count,description
+adjudicadas_sin_adjudicacion_capturada,warning,4445,Licitaciones adjudicadas que aun no tienen adjudicacion capturada en el master.
+transport_score_bajo,info,4,Filas con score de transporte menor al umbral base 3.

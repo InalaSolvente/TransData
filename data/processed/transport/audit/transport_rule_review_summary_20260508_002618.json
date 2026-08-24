@@ -1,0 +1,781 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-08T00:26:18.561266",
+    "removed_input_path": "data\\processed\\transport\\audit\\transport_rule_audit_removed_20260508_002605.csv"
+  },
+  "results": {
+    "removed_rows": 1809,
+    "dominant_bucket": "generic_ambiguous"
+  },
+  "buckets": [
+    {
+      "bucket": "generic_ambiguous",
+      "rows": 1511,
+      "positive_hits_top10": {
+        "servicio_transporte": 1449,
+        "servicio_transporte,traslado": 49,
+        "acercamiento,servicio_transporte": 11,
+        "acercamiento,traslado": 2
+      },
+      "passenger_context_top10": {
+        "": 1511
+      },
+      "land_mode_top10": {
+        "": 1459,
+        "modo_vehiculo": 29,
+        "modo_chofer": 9,
+        "modo_conductor": 6,
+        "modo_camioneta,modo_conductor": 2,
+        "modo_camioneta": 2,
+        "modo_conductor,modo_vehiculo": 2,
+        "modo_chofer,modo_vehiculo": 1,
+        "modo_camioneta,modo_chofer": 1
+      },
+      "activity_context_top10": {
+        "": 1511
+      },
+      "exclusion_hits_top10": {
+        "": 1511
+      },
+      "negative_hits_top10": {
+        "": 1511
+      },
+      "sample_rows": [
+        {
+          "codigo_licitacion": "1347870-1-LE26",
+          "nombre_licitacion": "SERVICIO DE TRANSPORTE MEMO 57 SDM RES.149",
+          "transport_rule": "rejected",
+          "transport_score": 3,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": NaN
+        },
+        {
+          "codigo_licitacion": "1953-12-LE26",
+          "nombre_licitacion": "502 CONTRATACION SERVICIO DE TRANSPORTE CCJJ 26-27",
+          "transport_rule": "rejected",
+          "transport_score": 3,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": NaN
+        },
+        {
+          "codigo_licitacion": "2381-15-LE26",
+          "nombre_licitacion": "SERVICIO DE TRANSPORTE PARA TRASLADO DE PROFESIONALES DEL CONVENIO REFORZAMIENTO DE LA ATENCION INTEGRAL DE NIÑOS Y NIÑAS ADOLESCENTES Y JOVENES VINCULADOS A LA RED SPE Y SRJS",
+          "transport_rule": "rejected",
+          "transport_score": 5,
+          "transport_positive_hits": "servicio_transporte,traslado",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": NaN
+        },
+        {
+          "codigo_licitacion": "2467-31-CO26",
+          "nombre_licitacion": "SERVICIO DE TRANSPORTE PARA PARA EL MES DE ABRIL - TURISMO",
+          "transport_rule": "rejected",
+          "transport_score": 3,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": NaN
+        },
+        {
+          "codigo_licitacion": "2703-39-L126",
+          "nombre_licitacion": "SC 11673 Compra de Servicio de transporte a cargo de Praps 2026",
+          "transport_rule": "rejected",
+          "transport_score": 3,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": NaN
+        },
+        {
+          "codigo_licitacion": "2793-30-LP26",
+          "nombre_licitacion": "SERVICIO DE TRANSPORTE PARA EL DEPARTAMENTO DE EDU",
+          "transport_rule": "rejected",
+          "transport_score": 3,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": NaN
+        },
+        {
+          "codigo_licitacion": "2852-2-LE26",
+          "nombre_licitacion": "CONVENIO DE SUMINISTRO SERVICIO DE TRANSPORTE",
+          "transport_rule": "rejected",
+          "transport_score": 3,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": NaN
+        },
+        {
+          "codigo_licitacion": "2904-8-LE26",
+          "nombre_licitacion": "SERVICIO DE TRANSPORTE - MUNICIPALIDAD DE HUALAIHUÉ",
+          "transport_rule": "rejected",
+          "transport_score": 3,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": NaN
+        },
+        {
+          "codigo_licitacion": "2909-20-LE26",
+          "nombre_licitacion": "SERVICIO DE TRANSPORTE JARDIN CECI PANCUL DE PUMOL",
+          "transport_rule": "rejected",
+          "transport_score": 3,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": NaN
+        },
+        {
+          "codigo_licitacion": "3477-30-LE26",
+          "nombre_licitacion": "“SERVICIO DE TRANSPORTE PARA ORGANIZACIONES COMUNI",
+          "transport_rule": "rejected",
+          "transport_score": 3,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": NaN
+        },
+        {
+          "codigo_licitacion": "3656-86-L126",
+          "nombre_licitacion": "SUMINISTRO DE SERVICIO DE TRANSPORTE PROGRAMA PSICOSOCIAL HABITABILIDAD Y APOYO A LA SEGURIDAD ALIMENTARIA",
+          "transport_rule": "rejected",
+          "transport_score": 3,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": NaN
+        },
+        {
+          "codigo_licitacion": "3695-15-LE26",
+          "nombre_licitacion": "CONTRATACIÓN DEL SERVICIO DE TRANSPORTE DE ESCOLAR",
+          "transport_rule": "rejected",
+          "transport_score": 3,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": NaN
+        }
+      ]
+    },
+    {
+      "bucket": "exclusion_context",
+      "rows": 265,
+      "positive_hits_top10": {
+        "servicio_transporte": 226,
+        "servicio_transporte,traslado": 34,
+        "traslado,van": 3,
+        "servicio_transporte,van": 1,
+        "bus,minibus,van": 1
+      },
+      "passenger_context_top10": {
+        "": 169,
+        "ctx_personal": 33,
+        "ctx_funcionarios": 25,
+        "ctx_pacientes": 11,
+        "ctx_pasajeros": 6,
+        "ctx_personas": 6,
+        "ctx_pacientes,ctx_personal": 4,
+        "ctx_funcionarios,ctx_pacientes": 3,
+        "ctx_estudiantes": 2,
+        "ctx_alumnos,ctx_apoderados,ctx_pasajeros": 2
+      },
+      "land_mode_top10": {
+        "": 227,
+        "modo_vehiculo": 13,
+        "modo_conductor,modo_vehiculo": 7,
+        "modo_conductor": 4,
+        "modo_camioneta,modo_chofer": 4,
+        "modo_van,modo_vehiculo": 2,
+        "modo_camioneta,modo_sedan,modo_van,modo_vehiculo": 1,
+        "modo_conductor,modo_moviles,modo_vehiculo": 1,
+        "modo_furgon,modo_van": 1,
+        "modo_conductor,modo_moviles": 1
+      },
+      "activity_context_top10": {
+        "": 256,
+        "ctx_visitas_domiciliarias": 6,
+        "ctx_atencion_domiciliaria": 2,
+        "ctx_adultos_mayores": 1
+      },
+      "exclusion_hits_top10": {
+        "excl_equipos": 53,
+        "excl_aereo": 43,
+        "excl_maritimo": 29,
+        "excl_insumos": 24,
+        "excl_equipos,excl_maquinaria": 15,
+        "excl_materiales": 11,
+        "excl_transporte_vehiculos": 11,
+        "excl_medicamentos": 8,
+        "excl_equipos,excl_materiales": 8,
+        "excl_ambulancia": 7
+      },
+      "negative_hits_top10": {
+        "": 265
+      },
+      "sample_rows": [
+        {
+          "codigo_licitacion": "1027-4-LP26",
+          "nombre_licitacion": "Servicio de Transporte de Maquinaria y Equipos de la Administración Directa Oficina Provincial de Huasco Vialidad – Región de Atacama.",
+          "transport_rule": "rejected_exclusion_context",
+          "transport_score": 3,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": "excl_equipos,excl_maquinaria",
+          "transport_negative_hits": NaN
+        },
+        {
+          "codigo_licitacion": "1337-10-LE26",
+          "nombre_licitacion": "Convenio del Servicio de transporte aéreo para funcionariosas de la Dirección de Vialidad Palena y traslado de documentación entre Chaitén – Puerto Montt – Chaitén",
+          "transport_rule": "rejected_exclusion_context",
+          "transport_score": 5,
+          "transport_positive_hits": "servicio_transporte,traslado",
+          "transport_passenger_context_hits": "ctx_funcionarios",
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": "excl_aereo",
+          "transport_negative_hits": NaN
+        },
+        {
+          "codigo_licitacion": "2328-24-LE26",
+          "nombre_licitacion": "LICITACIÓN PÚBLICA E-12026 “SERVICIO DE TRANSPORTE MARITIMO PARA ESTUDIANTES SECTOR ISLA TENGLO” ",
+          "transport_rule": "rejected_exclusion_context",
+          "transport_score": 3,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": "ctx_estudiantes",
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": "excl_maritimo",
+          "transport_negative_hits": NaN
+        },
+        {
+          "codigo_licitacion": "2332-14-LE26",
+          "nombre_licitacion": "SERVICIO DE TRANSPORTE MARITIMO Y TERRESTRE ESR26",
+          "transport_rule": "rejected_exclusion_context",
+          "transport_score": 3,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": "excl_maritimo",
+          "transport_negative_hits": NaN
+        },
+        {
+          "codigo_licitacion": "3251-13-LE26",
+          "nombre_licitacion": "Servicio de transporte REAS 2026",
+          "transport_rule": "rejected_exclusion_context",
+          "transport_score": 3,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": "excl_reas",
+          "transport_negative_hits": NaN
+        },
+        {
+          "codigo_licitacion": "3526-12-LP26",
+          "nombre_licitacion": "SERVICIO DE TRANSPORTE AÉREO",
+          "transport_rule": "rejected_exclusion_context",
+          "transport_score": 3,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": "excl_aereo",
+          "transport_negative_hits": NaN
+        },
+        {
+          "codigo_licitacion": "3714-5-LE26",
+          "nombre_licitacion": "SERVICIO DE TRANSPORTE DE AGUA POTABLE RURAL",
+          "transport_rule": "rejected_exclusion_context",
+          "transport_score": 3,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": "excl_agua_potable",
+          "transport_negative_hits": NaN
+        },
+        {
+          "codigo_licitacion": "1057417-43-I226",
+          "nombre_licitacion": "CONVENIO POR SERVICIO DE TRANSPORTE DE PACIENTES EN AMBULANCIA",
+          "transport_rule": "rejected_exclusion_context",
+          "transport_score": 3,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": "ctx_pacientes",
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": "excl_ambulancia",
+          "transport_negative_hits": NaN
+        },
+        {
+          "codigo_licitacion": "1214102-9-LE26",
+          "nombre_licitacion": "SERVICIO DE TRANSPORTE PARA CENTROS DE SALUD",
+          "transport_rule": "rejected_exclusion_context",
+          "transport_score": 3,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": "ctx_funcionarios",
+          "transport_land_mode_hits": "modo_conductor,modo_vehiculo",
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": "excl_insumos",
+          "transport_negative_hits": NaN
+        },
+        {
+          "codigo_licitacion": "1214103-1-LE26",
+          "nombre_licitacion": "SERVICIO DE TRANSPORTE DE LA CORPORACIÓN CULTURAL",
+          "transport_rule": "rejected_exclusion_context",
+          "transport_score": 3,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": "modo_conductor,modo_vehiculo",
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": "excl_equipos",
+          "transport_negative_hits": NaN
+        },
+        {
+          "codigo_licitacion": "1214103-2-CO26",
+          "nombre_licitacion": "SERVICIO DE TRANSPORTE DE LA CORPORACIÓN CULTURAL",
+          "transport_rule": "rejected_exclusion_context",
+          "transport_score": 3,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": "modo_conductor,modo_vehiculo",
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": "excl_equipos",
+          "transport_negative_hits": NaN
+        },
+        {
+          "codigo_licitacion": "1291-1-LP26",
+          "nombre_licitacion": "ADQUISICIÓN DE SERVICIO DE TRANSPORTE DE PERSONAL",
+          "transport_rule": "rejected_exclusion_context",
+          "transport_score": 3,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": "ctx_personal",
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": "excl_maquinaria",
+          "transport_negative_hits": NaN
+        }
+      ]
+    },
+    {
+      "bucket": "mixed_passenger_cargo",
+      "rows": 21,
+      "positive_hits_top10": {
+        "servicio_transporte,transporte_pasajeros": 14,
+        "transporte_pasajeros": 3,
+        "servicio_transporte": 2,
+        "traslado,traslado_pasajeros": 2
+      },
+      "passenger_context_top10": {
+        "ctx_pasajeros": 20,
+        "ctx_funcionarios,ctx_pasajeros": 1
+      },
+      "land_mode_top10": {
+        "modo_camioneta": 11,
+        "": 7,
+        "modo_vehiculo": 2,
+        "modo_camioneta,modo_furgon,modo_sedan,modo_station_wagon,modo_vehiculo": 1
+      },
+      "activity_context_top10": {
+        "": 21
+      },
+      "exclusion_hits_top10": {
+        "": 19,
+        "excl_maritimo": 2
+      },
+      "negative_hits_top10": {
+        "carga,pasajeros_y_carga": 19,
+        "carga,carga_y_pasajeros,transporte_carga": 2
+      },
+      "sample_rows": [
+        {
+          "codigo_licitacion": "3894-1-B226",
+          "nombre_licitacion": "SERVICIO DE TRANSPORTE DE PASAJEROS Y CARGA DE CAMIONETAS PARA USO INTERNO DE LA MUNICIPALIDAD DE LAMPA LÍNEAS N° 3 4 5 Y 10",
+          "transport_rule": "rejected_mixed_passenger_cargo",
+          "transport_score": -1,
+          "transport_positive_hits": "servicio_transporte,transporte_pasajeros",
+          "transport_passenger_context_hits": "ctx_pasajeros",
+          "transport_land_mode_hits": "modo_camioneta",
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": "carga,pasajeros_y_carga"
+        },
+        {
+          "codigo_licitacion": "1080089-67-LE25",
+          "nombre_licitacion": "Servicio de transporte marítimo regional",
+          "transport_rule": "rejected_mixed_passenger_cargo",
+          "transport_score": -10,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": "ctx_pasajeros",
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": "excl_maritimo",
+          "transport_negative_hits": "carga,carga_y_pasajeros,transporte_carga"
+        },
+        {
+          "codigo_licitacion": "2983-6-LE25",
+          "nombre_licitacion": "SERVICIO TRANSPORTE DE PASAJEROS Y CARGA",
+          "transport_rule": "rejected_mixed_passenger_cargo",
+          "transport_score": -4,
+          "transport_positive_hits": "transporte_pasajeros",
+          "transport_passenger_context_hits": "ctx_pasajeros",
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": "carga,pasajeros_y_carga"
+        },
+        {
+          "codigo_licitacion": "1224957-37-LQ25",
+          "nombre_licitacion": "TRANSPORTE DE PASAJEROS Y CARGA MENOR",
+          "transport_rule": "rejected_mixed_passenger_cargo",
+          "transport_score": -1,
+          "transport_positive_hits": "servicio_transporte,transporte_pasajeros",
+          "transport_passenger_context_hits": "ctx_pasajeros",
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": "carga,pasajeros_y_carga"
+        },
+        {
+          "codigo_licitacion": "3894-35-LQ25",
+          "nombre_licitacion": "SERVICIO DE TRANSPORTE DE PASAJEROS Y CARGA EN CAMIONETAS PARA USO INTERNO DE LA MUNICIPALIDAD DE LAMPA 2DO LLAMADO.",
+          "transport_rule": "rejected_mixed_passenger_cargo",
+          "transport_score": -1,
+          "transport_positive_hits": "servicio_transporte,transporte_pasajeros",
+          "transport_passenger_context_hits": "ctx_pasajeros",
+          "transport_land_mode_hits": "modo_camioneta",
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": "carga,pasajeros_y_carga"
+        },
+        {
+          "codigo_licitacion": "3894-43-LQ25",
+          "nombre_licitacion": "SERVICIO DE TRANSPORTE DE PASAJEROS Y CARGA DE CAMIONETAS PARA USO INTERNO DE LA MUNICIPALIDAD DE LAMPA 2DO LLAMADO LÍNEAS N° 5 Y10.",
+          "transport_rule": "rejected_mixed_passenger_cargo",
+          "transport_score": -1,
+          "transport_positive_hits": "servicio_transporte,transporte_pasajeros",
+          "transport_passenger_context_hits": "ctx_pasajeros",
+          "transport_land_mode_hits": "modo_camioneta",
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": "carga,pasajeros_y_carga"
+        },
+        {
+          "codigo_licitacion": "3894-7-LQ25",
+          "nombre_licitacion": "SERVICIO DE TRANSPORTE DE PASAJEROS Y CARGA EN CAMIONETAS PARA USO INTERNO DE LA MUNICIPALIDAD DE LAMPA",
+          "transport_rule": "rejected_mixed_passenger_cargo",
+          "transport_score": -1,
+          "transport_positive_hits": "servicio_transporte,transporte_pasajeros",
+          "transport_passenger_context_hits": "ctx_pasajeros",
+          "transport_land_mode_hits": "modo_camioneta",
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": "carga,pasajeros_y_carga"
+        },
+        {
+          "codigo_licitacion": "2342-94-LQ24",
+          "nombre_licitacion": "SERVICIO DE TRANSPORTE DE PASAJEROS Y CARGA EN CAMIONETAS PARA USO INTERNO DE LA I. MUNICIAPLIDAD DE SAN BERNARDO",
+          "transport_rule": "rejected_mixed_passenger_cargo",
+          "transport_score": -1,
+          "transport_positive_hits": "servicio_transporte,transporte_pasajeros",
+          "transport_passenger_context_hits": "ctx_pasajeros",
+          "transport_land_mode_hits": "modo_camioneta",
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": "carga,pasajeros_y_carga"
+        },
+        {
+          "codigo_licitacion": "1080089-92-LE24",
+          "nombre_licitacion": "Servicio de transporte marítimo regional",
+          "transport_rule": "rejected_mixed_passenger_cargo",
+          "transport_score": -10,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": "ctx_pasajeros",
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": "excl_maritimo",
+          "transport_negative_hits": "carga,carga_y_pasajeros,transporte_carga"
+        },
+        {
+          "codigo_licitacion": "2342-74-LQ24",
+          "nombre_licitacion": "SERVICIO DE TRANSPORTE DE PASAJEROS Y CARGA EN CAMIONETAS PARA USO INTERNO DE LA I. MUNICIAPLIDAD DE SAN BERNARDO",
+          "transport_rule": "rejected_mixed_passenger_cargo",
+          "transport_score": -1,
+          "transport_positive_hits": "servicio_transporte,transporte_pasajeros",
+          "transport_passenger_context_hits": "ctx_pasajeros",
+          "transport_land_mode_hits": "modo_camioneta",
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": "carga,pasajeros_y_carga"
+        },
+        {
+          "codigo_licitacion": "2412-62-L124",
+          "nombre_licitacion": "ARRIENDO DE CAMIONETA DOBLE CABINA PARA SERVICIO DE TRANSPORTE DE PASAJEROS Y CARGA",
+          "transport_rule": "rejected_mixed_passenger_cargo",
+          "transport_score": -1,
+          "transport_positive_hits": "servicio_transporte,transporte_pasajeros",
+          "transport_passenger_context_hits": "ctx_pasajeros",
+          "transport_land_mode_hits": "modo_camioneta",
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": "carga,pasajeros_y_carga"
+        },
+        {
+          "codigo_licitacion": "3894-66-H224",
+          "nombre_licitacion": "SERVICIO DE TRANSPORTE DE PASAJEROS Y CARGA EN CAMIONETAS PARA USO INTERNO DE LA MUNICIPALIDAD DE LAMPA",
+          "transport_rule": "rejected_mixed_passenger_cargo",
+          "transport_score": -1,
+          "transport_positive_hits": "servicio_transporte,transporte_pasajeros",
+          "transport_passenger_context_hits": "ctx_pasajeros",
+          "transport_land_mode_hits": "modo_camioneta",
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": "carga,pasajeros_y_carga"
+        }
+      ]
+    },
+    {
+      "bucket": "mixed_cargo",
+      "rows": 10,
+      "positive_hits_top10": {
+        "servicio_transporte,traslado": 4,
+        "servicio_transporte": 3,
+        "bus,servicio_transporte": 1,
+        "servicio_transporte,traslado,van": 1,
+        "bus,traslado": 1
+      },
+      "passenger_context_top10": {
+        "": 7,
+        "ctx_personas": 2,
+        "ctx_funcionarios": 1
+      },
+      "land_mode_top10": {
+        "": 6,
+        "modo_bus": 2,
+        "modo_camioneta,modo_chofer,modo_minivan,modo_van,modo_vehiculo": 1,
+        "modo_vehiculo": 1
+      },
+      "activity_context_top10": {
+        "": 10
+      },
+      "exclusion_hits_top10": {
+        "excl_distribucion,excl_logistica": 3,
+        "": 2,
+        "excl_maritimo": 1,
+        "excl_equipos,excl_insumos": 1,
+        "excl_insumos,excl_materiales": 1,
+        "excl_medicamentos": 1,
+        "excl_transporte_vehiculos,excl_traslado_vehiculos": 1
+      },
+      "negative_hits_top10": {
+        "carga": 6,
+        "carga,transporte_carga": 3,
+        "carga,grua": 1
+      },
+      "sample_rows": [
+        {
+          "codigo_licitacion": "1006-8-LE26",
+          "nombre_licitacion": "SERVICIO DE TRANSPORTE EN BUSES INTERPROVINCIALES",
+          "transport_rule": "rejected_mixed_cargo",
+          "transport_score": -3,
+          "transport_positive_hits": "bus,servicio_transporte",
+          "transport_passenger_context_hits": "ctx_funcionarios",
+          "transport_land_mode_hits": "modo_bus",
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": "carga,transporte_carga"
+        },
+        {
+          "codigo_licitacion": "1092-17-LE25",
+          "nombre_licitacion": "Servicio de Transporte de productos forestales",
+          "transport_rule": "rejected_mixed_cargo",
+          "transport_score": 2,
+          "transport_positive_hits": "servicio_transporte,traslado",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": "excl_maritimo",
+          "transport_negative_hits": "carga"
+        },
+        {
+          "codigo_licitacion": "1173639-3-LE24",
+          "nombre_licitacion": "SERVICIO DE TRANSPORTE RUTA CALLE DPP DE TALAGANTE",
+          "transport_rule": "rejected_mixed_cargo",
+          "transport_score": 4,
+          "transport_positive_hits": "servicio_transporte,traslado,van",
+          "transport_passenger_context_hits": "ctx_personas",
+          "transport_land_mode_hits": "modo_camioneta,modo_chofer,modo_minivan,modo_van,modo_vehiculo",
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": "excl_equipos,excl_insumos",
+          "transport_negative_hits": "carga"
+        },
+        {
+          "codigo_licitacion": "1033-24-L123",
+          "nombre_licitacion": "“SERVICIO DE TRANSPORTE DE MATERIALES E INSUMOS DE VIVERO, PROGRAMA SIEMBRA POR CHILE CONAF ANTOFAGASTA”",
+          "transport_rule": "rejected_mixed_cargo",
+          "transport_score": -2,
+          "transport_positive_hits": "servicio_transporte,traslado",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": "excl_insumos,excl_materiales",
+          "transport_negative_hits": "carga,grua"
+        },
+        {
+          "codigo_licitacion": "1216062-7-LR23",
+          "nombre_licitacion": "Contratación de servicio de transporte",
+          "transport_rule": "rejected_mixed_cargo",
+          "transport_score": 2,
+          "transport_positive_hits": "servicio_transporte,traslado",
+          "transport_passenger_context_hits": "ctx_personas",
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": "excl_medicamentos",
+          "transport_negative_hits": "carga"
+        },
+        {
+          "codigo_licitacion": "1171166-4-LP23",
+          "nombre_licitacion": "SERVICIO DE TRANSPORTE Y DISTRIBUCIÓN LOGISTICA",
+          "transport_rule": "rejected_mixed_cargo",
+          "transport_score": 0,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": "excl_distribucion,excl_logistica",
+          "transport_negative_hits": "carga"
+        },
+        {
+          "codigo_licitacion": "4629-8-LE23",
+          "nombre_licitacion": "Servicio de transporte de vehículos DT",
+          "transport_rule": "rejected_mixed_cargo",
+          "transport_score": -3,
+          "transport_positive_hits": "servicio_transporte,traslado",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": "modo_vehiculo",
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": "excl_transporte_vehiculos,excl_traslado_vehiculos",
+          "transport_negative_hits": "carga,transporte_carga"
+        },
+        {
+          "codigo_licitacion": "1006-3-LE23",
+          "nombre_licitacion": "SERVICIO DE TRASLADO EN BUS",
+          "transport_rule": "rejected_mixed_cargo",
+          "transport_score": -4,
+          "transport_positive_hits": "bus,traslado",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": "modo_bus",
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": "carga,transporte_carga"
+        },
+        {
+          "codigo_licitacion": "1171166-30-LE21",
+          "nombre_licitacion": "Servicio de Transporte de Mercaderías EE",
+          "transport_rule": "rejected_mixed_cargo",
+          "transport_score": 0,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": "excl_distribucion,excl_logistica",
+          "transport_negative_hits": "carga"
+        },
+        {
+          "codigo_licitacion": "1171166-29-LE21",
+          "nombre_licitacion": "Servicio de Transporte y Distribución Logística",
+          "transport_rule": "rejected_mixed_cargo",
+          "transport_score": 0,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": "excl_distribucion,excl_logistica",
+          "transport_negative_hits": "carga"
+        }
+      ]
+    },
+    {
+      "bucket": "negative_score",
+      "rows": 2,
+      "positive_hits_top10": {
+        "servicio_transporte": 2
+      },
+      "passenger_context_top10": {
+        "": 2
+      },
+      "land_mode_top10": {
+        "": 2
+      },
+      "activity_context_top10": {
+        "": 2
+      },
+      "exclusion_hits_top10": {
+        "": 1,
+        "excl_agua_potable": 1
+      },
+      "negative_hits_top10": {
+        "camion": 1,
+        "camion,camion_aljibe": 1
+      },
+      "sample_rows": [
+        {
+          "codigo_licitacion": "1027-18-LP24",
+          "nombre_licitacion": "Servicio de Transporte de Material Granular Huasco",
+          "transport_rule": "rejected_negative_score",
+          "transport_score": 0,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": NaN,
+          "transport_negative_hits": "camion"
+        },
+        {
+          "codigo_licitacion": "1116330-1-LE21",
+          "nombre_licitacion": "SERVICIO DE TRANSPORTE DE AGUA POTABLE 2022",
+          "transport_rule": "rejected_negative_score",
+          "transport_score": -5,
+          "transport_positive_hits": "servicio_transporte",
+          "transport_passenger_context_hits": NaN,
+          "transport_land_mode_hits": NaN,
+          "transport_activity_context_hits": NaN,
+          "transport_exclusion_hits": "excl_agua_potable",
+          "transport_negative_hits": "camion,camion_aljibe"
+        }
+      ]
+    }
+  ]
+}
